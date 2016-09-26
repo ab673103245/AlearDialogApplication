@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:orientation="vertical"
+    tools:context="qianfeng.aleardialogapplication.MainActivity">
+
+    <Button
+        android:onClick="onClick1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击选中对话框" />
+
+    <Button
+        android:onClick="onClick2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单选对话框" />
+
+
+    <Button
+        android:onClick="onClick3"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="多选对话框" />
+
+
+    <Button
+        android:onClick="onClick4"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自定义View对话框" />
+
+    <Button
+        android:onClick="open"
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开进度条" />
+
+
+    <Button
+        android:onClick="close"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关闭进度条" />
+</LinearLayout>
